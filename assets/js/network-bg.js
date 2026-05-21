@@ -17,7 +17,7 @@
       vx: (Math.random() - .5) * .35,
       vy: (Math.random() - .5) * .35,
       baseR: 3 + Math.random() * 2,
-      displayAlpha: 0.6, targetAlpha: 0.6,
+      displayAlpha: 0.15, targetAlpha: 0.15,
       displayR: 3, targetR: 3,
       party: Math.random() < 0.5 ? 'red' : 'blue',
       connections: 0,
@@ -41,7 +41,7 @@
       nodes[i].connections = nb.length;
       const ratio = nb.length / maxConn;
       if (activated) {
-        nodes[i].targetAlpha = 0.15 + ratio * 0.85;
+        nodes[i].targetAlpha = 0.05 + ratio * 0.25;
         nodes[i].targetR = nodes[i].baseR + ratio * 6;
         const redCount = nb.filter(j => nodes[j].party === 'red').length;
         const blueCount = nb.filter(j => nodes[j].party === 'blue').length;
@@ -49,7 +49,7 @@
           nodes[i].party = redCount >= blueCount ? 'red' : 'blue';
         }
       } else {
-        nodes[i].targetAlpha = 0.6;
+        nodes[i].targetAlpha = 0.15;
         nodes[i].targetR = nodes[i].baseR;
       }
     }
@@ -61,7 +61,7 @@
       for (let j = i + 1; j < nodes.length; j++) {
         const d = Math.hypot(nodes[i].x - nodes[j].x, nodes[i].y - nodes[j].y);
         if (d < LINK_DIST) {
-          const alpha = (1 - d / LINK_DIST) * 0.45;
+          const alpha = (1 - d / LINK_DIST) * 0.12;
           if (activated) {
             const ci = nodes[i].party, cj = nodes[j].party;
             ctx.strokeStyle = ci === cj
@@ -82,7 +82,7 @@
       for (let i = 0; i < nodes.length; i++) {
         const dm = Math.hypot(nodes[i].x - mouse.x, nodes[i].y - mouse.y);
         if (dm < MOUSE_LINK_DIST) {
-          const alpha = (1 - dm / MOUSE_LINK_DIST) * 0.65;
+          const alpha = (1 - dm / MOUSE_LINK_DIST) * 0.25;
           ctx.strokeStyle = activated
             ? (nodes[i].party === 'red' ? `rgba(120,50,255,${alpha})` : `rgba(50,160,255,${alpha})`)
             : `rgba(50,90,210,${alpha})`;
