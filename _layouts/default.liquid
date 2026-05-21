@@ -17,6 +17,7 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <canvas id="network-bg" style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-1;pointer-events:none;"></canvas>
     <!-- Header -->
     {% include header.liquid %}
 
@@ -52,5 +53,7 @@
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}
+
+    <script src="/assets/js/network-bg.js"></script>
   </body>
 </html>
