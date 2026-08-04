@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Ph.D. Student,</a>. Northeastern University | li.cl1 AT northeastern.edu
+subtitle: <a href='#'>Ph.D. Student,</a> Northeastern University
 
 profile:
   align: right
