@@ -1,5 +1,9 @@
-:root {
+html {
   --global-theme-color: #4a90d9;
   --global-hover-color: #4a90d9;
-  --global-hover-text-color: #fff;
+  --global-text-color-light: #4a90d9;
+}
+
+a {
+  color: var(--global-theme-color);
 }
