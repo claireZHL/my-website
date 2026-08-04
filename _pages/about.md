@@ -25,8 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in the Network Science Institute at Northeastern University, where I am advised by [Professor David Lazer](https://www.lazerlab.net/people/david-lazer) and [Professor Christo Wilson](https://cbw.sh/index.html). 
+I am a PhD student in the Network Science Institute at Northeastern University, where I am advised by [Prof. David Lazer](https://www.lazerlab.net/people/david-lazer) and [Prof. Professor Christo Wilson](https://cbw.sh/index.html). 
 
 My research interest lies at the intersection of algorithmic systems and human cognition, with particular attention to the policy implications of recommendation algorithm design.
 
-I earned my B.S. in Cognitive Science, with a specialization in Machine Learning and Neural Computation, and later my Master's in Data Science, both from UC San Diego. During my Master's, I worked with [Professor David Danks](https://datascience.virginia.edu/people/david-danks) on the question of how personalization might impact political polarization. Currently, I'm extending that work using empirical social network methods.
+I earned my B.S. in Cognitive Science, with a specialization in Machine Learning and Neural Computation, and later my Master's in Data Science, both from UC San Diego. During my Master's, I worked with [Prof. David Danks](https://datascience.virginia.edu/people/david-danks) on the question of how personalization might impact political polarization. Currently, I'm extending that work using empirical social network methods.
