@@ -26,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD student in the Network Science Institute at Northeastern University, where I am advised by [Professor David Lazer](https://www.lazerlab.net/people/david-lazer) and [Professor Christo Wilson](https://cbw.sh/index.html). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interest lies at the intersection of algorithmic systems and human cognition, with particular attention to the policy implications of recommendation algorithm design.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I earned my B.S. in Cognitive Science, with a specialization in Machine Learning and Neural Computation, and later my Master's in Data Science, both from UC San Diego. During my Master's, I worked with [Professor David Danks](https://datascience.virginia.edu/people/david-danks) on the question of how personalization might impact political polarization. Currently, I'm extending that work using empirical social network methods.
