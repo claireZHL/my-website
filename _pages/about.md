@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Network Science Institute at Northeastern University</a>. 
 
 profile:
   align: right
