@@ -1,9 +1,5 @@
 html {
-  --global-theme-color: #4a90d9;
-  --global-hover-color: #4a90d9;
-  --global-text-color-light: #4a90d9;
-}
-
-a {
-  color: var(--global-theme-color);
+  --global-theme-color: #{$global-theme-color};
+  --global-hover-color: #{$global-hover-color};
+  --global-text-color-light: #{$global-text-color-light};
 }
