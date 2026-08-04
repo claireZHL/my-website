@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zhihanli.com/al-folio/sitemap.xml
+Sitemap: https://zhihanli.com/sitemap.xml
