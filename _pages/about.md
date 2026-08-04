@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: assets/img/cartoon_headshot.png
+  image: cartoon_headshot.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>216 Massachusetts Ave</p>
