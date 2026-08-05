@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in the Network Science Institute at Northeastern University, where I am advised by [Prof. David Lazer](https://www.lazerlab.net/people/david-lazer) and [Prof. Christo Wilson](https://cbw.sh/index.html). 
+I am a PhD student in the Network Science Institute at Northeastern University, where I am co-advised by [Prof. David Lazer](https://www.lazerlab.net/people/david-lazer) and [Prof. Christo Wilson](https://cbw.sh/index.html). 
 
 My research interest lies at the intersection of algorithmic systems and human cognition, with particular attention to the policy implications of recommendation algorithm design.
 
